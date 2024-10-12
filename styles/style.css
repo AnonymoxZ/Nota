@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+/* Conteudo - mesa principal */
+body {
+    background: linear-gradient(#E4F69A,#CAF71A,#DCFB62);
+    height: 700px;
+}
