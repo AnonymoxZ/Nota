@@ -1,0 +1,3 @@
+Arch front:
+
+A pagina esta dividida em duas sessoes; uma com fileiras listadas das notas criadas; a outra é a sessao principal, onde criamos as notas.

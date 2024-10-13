@@ -4,11 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <link rel="shortcut icon" href="/data image/icons/icon-site.png" type="image/png">
+    <link rel="shortcut icon" href="/stock image/icons/icon-site.png" type="image/png">
+    <link rel="stylesheet" href="styles/clean.css">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=delete" />
     <title>Nota - Anotações de escritório</title>
 </head>
 <body>
-    
+    <section class="sessao-notas">
+        <h3 id="sn-title">Suas notas</h3>
+        <img id="sn-icon" height="120px" src="/stock image/icons/icon-my-notes.png" alt="icone da coluna de notas recentes">
+        <!-- Notas criadas -->
+        <ul id="coluna-notas">
+            <figure class="nota-criada">
+            <li class="nota-itm">
+                <img id="nota-rc" height="90px" src="/stock image/note-interface.png" alt="Icone de nota recem criada">
+                </figure>
+                <span class="icone-item">
+                <span id="icon-delete" class="material-symbols-outlined">delete</span>
+                </span>
+            </li>
+        </ul>
+    </section>
 </body>
 </html>

@@ -1,7 +1,60 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
 
 /* Conteudo - mesa principal */
 body {
     background: linear-gradient(#E4F69A,#CAF71A,#DCFB62);
-    height: 700px;
+    height: 900px;
+}
+
+/* Sessao notas */
+.sessao-notas {
+    position: absolute;
+    color: #1E1E1E;
+    font-family: 'itim';
+    left: 20px;
+    height: 900px;
+}
+h3#sn-title {
+    position: relative;
+    cursor: pointer;
+    top: 20px;
+    left: 16px;
+    font-size: 30px;
+    text-decoration: underline;
+}
+section.sessao-notas img {
+    position: relative;
+    cursor: pointer;
+    left: 20px;
+    top: 30px;
+}
+section.sessao-notas ul {
+    position: relative;
+    list-style: none;
+}
+figure.nota-criada {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    width: 10px;
+}
+ul#coluna-notas .nota-itm {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    opacity: .5;
+    transition: .5s;
+}
+ul#coluna-notas :hover .nota-itm {
+    opacity: 100%;
+    transform: scale(1.2);
+}
+span#icon-delete {
+    position: relative;
+    cursor: pointer;
+    left: 105px;
+    opacity: .6;
+    top: 90px;
 }
