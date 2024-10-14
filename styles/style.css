@@ -33,28 +33,26 @@ section.sessao-notas ul {
     position: relative;
     list-style: none;
 }
-figure.nota-criada {
-    position: absolute;
-    padding: 0;
-    margin: 0;
-    width: 10px;
-}
-ul#coluna-notas .nota-itm {
+figure.nota-container {
     position: relative;
     margin: 0;
     padding: 0;
     width: 50%;
+}
+.nota-img {
+    position: relative;
     opacity: .5;
     transition: .5s;
+    margin: 0;
+    padding: 0;
 }
-ul#coluna-notas :hover .nota-itm {
+li.nota-itm :hover .nota-img {
     opacity: 100%;
-    transform: scale(1.2);
 }
-span#icon-delete {
+#icon-delete {
     position: relative;
     cursor: pointer;
     left: 105px;
     opacity: .6;
-    top: 90px;
+    top: 0;
 }
