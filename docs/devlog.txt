@@ -8,4 +8,10 @@ E add o icone da aba da pagina tbm :)
 ---
 A construção inicial do site seguiu com sucesso, embora o versionamento esteja uma m#rd4.
 Até o momento a sessao lateral das notas está iniciada, com uma pequena gambiarra nos containers...
+Edit (14/out 00:50): Gambiarra desfeita, bug solucionado. 
+======================================
+
+14 de Outubro de 2024, 18:35 da noite.
+---
+O frontend esta indo tranquilo ate o momento, acabei criando td em uma branch especifica pra sessao principal, no entanto boa parte do tempo foi ajustando a sessao-colunas. No momento uma grande parcial da sessao principal ja esta marcada e centralizada, contudo pendente da textarea :(
 ======================================
