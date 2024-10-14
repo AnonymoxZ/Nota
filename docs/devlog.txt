@@ -8,4 +8,5 @@ E add o icone da aba da pagina tbm :)
 ---
 A construção inicial do site seguiu com sucesso, embora o versionamento esteja uma m#rd4.
 Até o momento a sessao lateral das notas está iniciada, com uma pequena gambiarra nos containers...
+Edit (14/out 00:50): Gambiarra desfeita, bug solucionado. 
 ======================================
