@@ -4,7 +4,7 @@
 /* Conteudo - mesa principal */
 body {
     background: linear-gradient(#E4F69A,#CAF71A,#DCFB62);
-    height: 900px;
+    height: 860px;
 }
 
 /* Sessao notas */
@@ -13,7 +13,7 @@ body {
     color: #1E1E1E;
     font-family: 'itim';
     left: 20px;
-    height: 900px;
+    height: 700px;
 }
 h3#sn-title {
     position: relative;
@@ -49,10 +49,44 @@ figure.nota-container {
 li.nota-itm :hover .nota-img {
     opacity: 100%;
 }
+span.icone-item {
+    position: relative;
+    display: block;
+    padding: 0;
+    margin: 0;
+    left: 105px;
+}
 #icon-delete {
     position: relative;
     cursor: pointer;
-    left: 105px;
     opacity: .6;
     top: 0;
 }
+#icon-edit {
+    position: relative;
+    cursor: pointer;
+    opacity: .6;
+    top: -80px;
+}
+
+/* Sessao nota */
+section#sessao-postit {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+/* Textarea */
+
+figure#container-new-note {
+    position: relative;
+}
+figure#container-new-note img {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    left: 640px;
+    top: -636px;
+    cursor: pointer;
+}
+
