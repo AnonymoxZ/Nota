@@ -60,13 +60,13 @@ span.icone-item {
     position: relative;
     cursor: pointer;
     opacity: .6;
-    top: 0;
+    top: -5px;
 }
 #icon-edit {
     position: relative;
     cursor: pointer;
     opacity: .6;
-    top: -80px;
+    top: -81px;
 }
 
 /* Sessao nota */
@@ -77,16 +77,32 @@ section#sessao-postit {
     margin: 0;
 }
 /* Textarea */
+textarea#folha-escreve {
+    position: relative;
+    top: -500px;
+    left: 160px;
+    padding: 0;
+    margin: 0;
+    width: 400px;
+    height: 200px;
+    background: rgba(0,0,0,.0001);
+    border: none;
+    font-family: 'itim';
+    font-size: 60px;
+    text-align: center;
+}
 
 figure#container-new-note {
     position: relative;
+    padding: 0%;
+    margin: 0;
 }
 figure#container-new-note img {
     position: relative;
     width: 80px;
     height: 80px;
     left: 640px;
-    top: -636px;
+    top: -840px;
     cursor: pointer;
 }
 
