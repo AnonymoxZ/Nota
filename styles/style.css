@@ -125,3 +125,16 @@ figure#container-salvar-nota img {
 #container-salvar-nota:active {
     opacity: 50%;
 }
+/* Rodape */
+footer#rodape {
+    position: absolute;
+    border: 1px black solid;
+    width: 100%;
+    top: 860px;
+    height: 50%;
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Itim';
+    font-size: 15pt;
+}
