@@ -105,6 +105,9 @@ figure#container-new-note img {
     top: -840px;
     cursor: pointer;
 }
+.icon-new-note:active {
+    opacity: 50%;
+}
 
 figure#container-salvar-nota {
     position: relative;
@@ -118,4 +121,7 @@ figure#container-salvar-nota img {
     left: 635px;
     top: -840px;
     cursor: pointer;
+}
+#container-salvar-nota:active {
+    opacity: 50%;
 }
