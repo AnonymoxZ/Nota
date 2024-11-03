@@ -106,3 +106,16 @@ figure#container-new-note img {
     cursor: pointer;
 }
 
+figure#container-salvar-nota {
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+figure#container-salvar-nota img {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    left: 635px;
+    top: -840px;
+    cursor: pointer;
+}
